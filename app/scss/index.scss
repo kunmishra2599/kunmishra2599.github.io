@@ -1,0 +1,70 @@
+html,
+body {
+    background: #f5f3e6;
+    font-family: 'PT Serif', serif;
+}
+
+.navbar {
+    background: #f5f3e6;
+    margin-top: 4%;
+    // width: 90vw;
+    font-family: 'PT Serif', serif;
+
+    li a {
+
+        color: #2e3330;
+
+    }
+
+    a:hover {
+        color: grey;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
+.container {
+    // padding: 5vw;
+    // padding-top: 5vw;
+    // padding-bottom: 0vh;
+
+    .row {
+        // text-align: right;
+        height: 10vh;
+        padding-top: 10vh;
+        width: 80vw;
+
+
+        .col-6 {
+            margin-top: 5vh;
+        }
+
+        .photo {
+            text-align: right;
+
+            .profilepic {
+                width: 50%;
+                border-radius: 500px;
+                border: solid 4px white;
+
+            }
+        }
+
+
+        .description {
+            text-align: left;
+
+            h5 {
+                font-size: 1.1em;
+                line-height: 1.45em;
+                color: #636363;
+            }
+
+        }
+
+        .profiledesc {}
+    }
+}
