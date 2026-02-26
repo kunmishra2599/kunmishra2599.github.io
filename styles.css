@@ -1,10 +1,10 @@
 :root {
-  --bg: #ffffff;
+  --bg: #EBEEF2;
   --text: #1a1a1a;
-  --muted: #555555;
+  --muted: #5a6470;
   --link: #1a1a1a;
   --link-hover: #000000;
-  --max-width: 760px;
+  --max-width: 1100px;
 }
 
 * {
@@ -24,40 +24,57 @@ body {
   line-height: 1.7;
 }
 
-.container {
+.page {
   min-height: 100vh;
   width: min(100% - 48px, var(--max-width));
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 48px 0;
 }
 
-.intro {
+.profile-layout {
+  flex: 1;
   width: 100%;
+  display: grid;
+  grid-template-columns: 220px 600px;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
 }
 
-.greeting {
-  margin: 0 0 0.75rem 0;
-  font-size: 1rem;
-  color: var(--muted);
+.photo-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.content-column {
+  width: 100%;
+  max-width: 600px;
 }
 
 h1 {
   margin: 0 0 1.25rem 0;
-  font-size: clamp(2rem, 5vw, 3.25rem);
-  line-height: 1.15;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 .bio,
-.links-line,
-.contact {
+.links-line {
   margin: 0 0 1rem 0;
   font-size: 1.05rem;
-  color: var(--text);
 }
 
 a {
@@ -73,25 +90,77 @@ a:focus {
   opacity: 0.7;
 }
 
-.footer {
-  margin-top: 2rem;
+.site-footer {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
   font-size: 0.95rem;
   color: var(--muted);
 }
 
-.footer p {
-  margin: 0;
+.heart {
+  display: inline-block;
+  transform-origin: center;
+  animation: heartbeat 1.4s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  25% {
+    transform: scale(1.08);
+    filter: brightness(0.9);
+  }
+  40% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  60% {
+    transform: scale(1.14);
+    filter: brightness(0.82);
+  }
+  80% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .content-column {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
-  .container {
+  .page {
     width: min(100% - 32px, var(--max-width));
     padding: 32px 0;
   }
 
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+  }
+
   .bio,
-  .links-line,
-  .contact {
+  .links-line {
     font-size: 1rem;
+  }
+
+  .site-footer {
+    padding-top: 24px;
   }
 }
