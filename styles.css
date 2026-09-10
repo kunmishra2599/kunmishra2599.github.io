@@ -37,8 +37,8 @@ body {
   flex: 1;
   width: 100%;
   display: grid;
-  grid-template-columns: 220px 600px;
-  gap: 48px;
+  grid-template-columns: 320px minmax(0, 640px);
+  gap: 64px;
   justify-content: center;
   align-items: center;
 }
@@ -50,8 +50,8 @@ body {
 }
 
 .profile-photo {
-  width: 220px;
-  height: 220px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -60,7 +60,7 @@ body {
 
 .content-column {
   width: 100%;
-  max-width: 600px;
+  max-width: 640px;
 }
 
 h1 {
@@ -151,8 +151,8 @@ a:focus {
   }
 
   .profile-photo {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
   }
 
   .bio,
@@ -163,4 +163,9 @@ a:focus {
   .site-footer {
     padding-top: 24px;
   }
+}
+.title-line {
+  margin: -0.75rem 0 1.25rem 0;
+  font-size: 1rem;
+  color: var(--muted);
 }

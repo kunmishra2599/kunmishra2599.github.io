@@ -1,0 +1,174 @@
+{
+  "orcid": "0000-0003-0460-2554",
+  "me": { "family": "Mishra", "initial": "K" },
+  "items": [
+    {
+      "doi": "10.1073/pnas.2531159123",
+      "type": "paper",
+      "title": "Mfsd2a is important for maintaining epidermal homeostasis",
+      "authors": [
+        { "name": "Wong BH" },
+        { "name": "Mishra K", "me": true },
+        { "name": "Chin CF" },
+        { "name": "Galam DLA" },
+        { "name": "Tan BC" },
+        { "name": "Ding M" },
+        { "name": "Torta F" },
+        { "name": "Behmoaras J" },
+        { "name": "Chua AWC" },
+        { "name": "Silver DL" }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences",
+      "date": "2026-02-19",
+      "volume": "123",
+      "issue": "8",
+      "pages": "e2531159123",
+      "pmid": "41712644"
+    },
+    {
+      "doi": "10.64898/2026.06.30.735464",
+      "type": "preprint",
+      "title": "A Cross-Species Systems Genetics Framework Identifies Causal Genes in Diabetic Nephropathy",
+      "authors": [
+        { "name": "Mishra K", "me": true },
+        { "name": "Sakban RB" },
+        { "name": "Shankar S" },
+        { "name": "Wong J" },
+        { "name": "Farah BL" },
+        { "name": "Guo J" },
+        { "name": "Ching J" },
+        { "name": "Tham MS" },
+        { "name": "Kovalik JP" },
+        { "name": "Gurley SB" },
+        { "name": "Petretto E" },
+        { "name": "Tolwinski NS" },
+        { "name": "Coffman TM" },
+        { "name": "Behmoaras J" }
+      ],
+      "venue": "bioRxiv",
+      "date": "2026-07-01",
+      "note": "Under review",
+      "about": ["Diabetic nephropathy", "Systems genetics", "Chronic kidney disease"]
+    },
+    {
+      "doi": "10.1681/asn.2025ft298ygb",
+      "type": "abstract",
+      "title": "Systems Genetics Identifies a Podocyte Activity Network in Diabetic Nephropathy",
+      "authors": [
+        { "name": "Mishra K", "me": true },
+        { "name": "Sakban R" },
+        { "name": "Guo J" },
+        { "name": "Petretto E" },
+        { "name": "Gurley SB" },
+        { "name": "Coffman TM" },
+        { "name": "Behmoaras J" }
+      ],
+      "venue": "Journal of the American Society of Nephrology",
+      "date": "2025-10",
+      "volume": "36",
+      "issue": "10S",
+      "note": "ASN Kidney Week, abstract SA-PO0300"
+    },
+    {
+      "type": "thesis",
+      "title": "Systems biology to study macrophages in chronic kidney disease",
+      "authors": [{ "name": "Mishra K", "me": true }],
+      "venue": "Ph.D. thesis, Duke-NUS Medical School",
+      "date": "2025",
+      "degree": "Doctor of Philosophy",
+      "institution": "Duke-NUS Medical School",
+      "institution_url": "https://www.duke-nus.edu.sg/"
+    },
+    {
+      "doi": "10.1101/2024.07.31.606098",
+      "type": "preprint",
+      "title": "moPPIt: <em>De Novo</em> Generation of Motif-Specific and Functionally Active Peptide Binders via Discrete Flow Matching",
+      "authors": [
+        { "name": "Chen T", "equal": true },
+        { "name": "Quinn Z", "equal": true },
+        { "name": "Mishra K", "me": true, "equal": true },
+        { "name": "O’Connor EC", "equal": true },
+        { "name": "Silver SE" },
+        { "name": "Zhang Y" },
+        { "name": "Valencia MJ" },
+        { "name": "Mei Y" },
+        { "name": "Behmoaras J" },
+        { "name": "Ferreira LMR" },
+        { "name": "Chatterjee P" }
+      ],
+      "venue": "bioRxiv",
+      "date": "2024-08-01",
+      "note": "Revised 2026. Under review",
+      "about": ["Peptide design", "Protein-protein interaction", "Generative models"]
+    },
+    {
+      "doi": "10.7554/eLife.85530",
+      "type": "paper",
+      "title": "Systems level identification of a matrisome-associated macrophage polarisation state in multi-organ fibrosis",
+      "authors": [
+        { "name": "Ouyang JF", "equal": true },
+        { "name": "Mishra K", "me": true, "equal": true },
+        { "name": "Xie Y" },
+        { "name": "Park H" },
+        { "name": "Huang KY" },
+        { "name": "Petretto E" },
+        { "name": "Behmoaras J" }
+      ],
+      "venue": "eLife",
+      "date": "2023",
+      "volume": "12",
+      "pages": "e85530",
+      "about": ["Macrophage polarisation", "Fibrosis", "Single-cell RNA sequencing"]
+    },
+    {
+      "doi": "10.1038/s41467-021-26085-2",
+      "type": "paper",
+      "title": "DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data",
+      "authors": [
+        { "name": "Ranjan B" },
+        { "name": "Sun W" },
+        { "name": "Park J" },
+        { "name": "Mishra K", "me": true },
+        { "name": "Schmidt F" },
+        { "name": "Xie R" },
+        { "name": "Alipour F" },
+        { "name": "Singhal V" },
+        { "name": "Joanito I" },
+        { "name": "Honardoost MA" },
+        { "name": "Yong JMY" },
+        { "name": "Koh ET" },
+        { "name": "Leong KP" },
+        { "name": "Rayan NA" },
+        { "name": "Lim MGL" },
+        { "name": "Prabhakar S" }
+      ],
+      "venue": "Nature Communications",
+      "date": "2021-10-06",
+      "volume": "12",
+      "issue": "1",
+      "pages": "5849",
+      "pmid": "34615861",
+      "about": ["Feature selection", "Single-cell RNA sequencing", "Clustering"]
+    },
+    {
+      "type": "thesis",
+      "title": "Analysis of disease-state specific variance in the peripheral blood of rheumatoid arthritis patients",
+      "authors": [{ "name": "Mishra K", "me": true }],
+      "venue": "B.Sc. thesis, Nanyang Technological University",
+      "date": "2021",
+      "degree": "Bachelor of Science",
+      "institution": "Nanyang Technological University",
+      "institution_url": "https://www.ntu.edu.sg/"
+    },
+    {
+      "doi": "10.1101/2020.10.07.330563",
+      "type": "preprint",
+      "title": "DUBStepR: correlation-based feature selection for clustering single-cell RNA sequencing data",
+      "authors": [{ "name": "Mishra K", "me": true }],
+      "venue": "bioRxiv",
+      "date": "2020-10-07",
+      "hidden": true,
+      "note": "Preprint of the 2021 Nature Communications paper; hidden from the page"
+    }
+  ]
+}

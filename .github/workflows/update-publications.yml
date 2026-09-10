@@ -1,0 +1,35 @@
+name: Update publications from ORCID
+
+on:
+  schedule:
+    # Every Monday 02:00 UTC (10:00 Singapore)
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync publications.json with ORCID and rebuild publications.html
+        run: python3 scripts/build_publications.py
+
+      - name: Commit and push if anything changed
+        run: |
+          if git diff --quiet -- publications.json publications.html; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications.json publications.html
+          git commit -m "Update publications from ORCID"
+          git push
